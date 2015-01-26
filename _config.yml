@@ -12,7 +12,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: The WEBaholic
 
 description: Life of The WEBaholic
 author:
