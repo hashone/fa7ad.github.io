@@ -1,4 +1,4 @@
-<! -- sidebar.html -->
+<!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
 	<a href="{{ site.BASE_PATH }}/">
 		<img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
@@ -30,10 +30,10 @@
 			</a>
 		</li>
 		{% endif %}
-		{% if site.author.email %}
+		{% if site.author.facebook %}
 		<li>
-			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
-				<i class="fa fa-envelope fa-lg"></i>
+			<a class="btn btn-default btn-sm" href="https://facebook.com/{{ site.author.facebook }}">
+				<i class="fa fa-facebook fa-lg"></i>
 			</a>
 		</li>
 		{% endif %}
@@ -46,10 +46,10 @@
 			</a>
 		</li>
 		{% endif %}
-		{% if site.author.linkedin %}
+		{% if site.author.email %}
 		<li>
-			<a class="btn btn-default btn-sm" href="https://linkedin.com/pub/{{ site.author.linkedin }}">
-				<i class="fa fa-linkedin fa-lg"></i>
+			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
+				<i class="fa fa-envelope fa-lg"></i>
 			</a>
 		</li>
 		{% endif %}
