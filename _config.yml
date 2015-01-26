@@ -14,16 +14,16 @@ defaults:
     values:
       title: dbyll
 
-description: Stylish Jekyll Theme
+description: Life of The WEBaholic
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  name: Fahad Hossain
+  email: fahadh434@gmail.com
+  github: fa7ad
+  twitter: devilv15
+  pinterest: 
+  linkedin: 
+  bio: Your friendly, geeky and lazy WEBaholic :)
+  email_md5: dc5140575ea5dfd1b5463f0181e6d3bc
 
 rss_path: feed.xml
 categories_path: categories.html
