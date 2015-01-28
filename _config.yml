@@ -32,3 +32,6 @@ url: http://fa7ad.github.io
 baseurl: ""
 
 BASE_PATH:
+syntax-highlighting:
+  enabled : true
+  css: syntax.css
