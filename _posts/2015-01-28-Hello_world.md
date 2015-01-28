@@ -1,8 +1,13 @@
 ---
 layout: post
 title: Hello World
-categories: [general, demo]
-tags: [demo, hello world, jkyll]
+categories:
+  - general
+  - demo
+tags:
+  - demo
+  - hello world
+  - jkyll
 fullview: true
 ---
 
