@@ -5,7 +5,8 @@ categories: [general, demo]
 tags: [demo, hello world, jkyll]
 fullview: true
 ---
-# Hello World
+
+## Hello World
 
 test redcarpet syntax highlight
 
