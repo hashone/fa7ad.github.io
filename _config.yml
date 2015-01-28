@@ -1,37 +1,28 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
-
-paginate: 10 # pagination based on number of posts
+paginate: 10
 paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
+exclude: ["README.md"]
 highlighter: pygments
 markdown: redcarpet
-
-
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
       title: The WEBaholic
-
 description: Life of The WEBaholic
 author:
   name: Fahad Hossain
   email: fahadh434@gmail.com
   github: fa7ad
   twitter: devilv15
-  pinterest: 
+  pinterest:
   facebook: devilv15
   bio: Your friendly, geeky and lazy WEBaholic :)
   email_md5: 63e2c83ab7013c9509b9348dad1d229f
-
 rss_path: feed.xml
 categories_path: categories.html
 tags_path: tags.html
 url: http://fa7ad.github.io
 baseurl: ""
-
 BASE_PATH:
-syntax-highlighting:
-  enabled : true
-  css: syntax.css
