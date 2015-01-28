@@ -25,9 +25,3 @@ cd /tmp
   hello: world;
 }
 ```
-
-```php
-function($math){
-  return $math + $mt_rand();
-  }
-```
